@@ -1,0 +1,31 @@
+{
+  "name": "task-reader",
+  "version": "0.1.0",
+  "main": "lib/reader.js",
+  "description": "Read files.",
+  "homepage": "https://github.com/taskjs/task-reader",
+  "bugs": "https://github.com/taskjs/task-reader/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-reader"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "task"
+  ],
+  "dependencies": {
+    "execution": "^0.1.2",
+    "record": "^0.2.0"
+  },
+  "scripts": {
+    "test": "node test/reader_test"
+  }
+}
